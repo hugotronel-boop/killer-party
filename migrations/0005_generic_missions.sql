@@ -1,0 +1,32 @@
+-- Missions without a victim name — assignable to anyone.
+
+update missions set template = 'Fais-lui demander sa pizza préférée.' where id = 'seed-01';
+update missions set template = 'Fais-lui faire un compliment sur une tenue.' where id = 'seed-02';
+update missions set template = 'Fais-lui raconter une blague.' where id = 'seed-03';
+update missions set template = 'Fais-lui demander son film préféré.' where id = 'seed-04';
+update missions set template = 'Fais-lui proposer un toast.' where id = 'seed-05';
+update missions set template = 'Fais-lui demander l''heure.' where id = 'seed-06';
+update missions set template = 'Fais-lui faire un selfie.' where id = 'seed-07';
+update missions set template = 'Fais-lui demander son voyage de rêve.' where id = 'seed-08';
+update missions set template = 'Fais-lui citer une réplique de film.' where id = 'seed-09';
+update missions set template = 'Fais-lui choisir la prochaine musique.' where id = 'seed-10';
+update missions set template = 'Fais-lui demander sa chanson du moment.' where id = 'seed-11';
+update missions set template = 'Fais-lui raconter un souvenir d''enfance.' where id = 'seed-12';
+update missions set template = 'Fais-lui complimenter un autre invité.' where id = 'seed-13';
+update missions set template = 'Fais-lui demander son plat signature.' where id = 'seed-14';
+update missions set template = 'Fais-lui inventer un super-pouvoir.' where id = 'seed-15';
+update missions set template = 'Fais-lui faire un vœu à voix haute.' where id = 'seed-16';
+update missions set template = 'Fais-lui dire le prénom de son premier animal.' where id = 'seed-17';
+update missions set template = 'Fais-lui raconter le pire jeu de mots.' where id = 'seed-18';
+update missions set template = 'Fais-lui décrire sa journée en trois mots.' where id = 'seed-19';
+update missions set template = 'Fais-lui inventer un nom de cocktail.' where id = 'seed-20';
+update missions set template = 'Fais-lui demander sa saison préférée.' where id = 'seed-21';
+update missions set template = 'Fais-lui faire un discours de dix secondes.' where id = 'seed-22';
+update missions set template = 'Fais-lui dire qui arriverait le plus en retard.' where id = 'seed-23';
+update missions set template = 'Fais-lui présenter deux personnes.' where id = 'seed-24';
+update missions set template = 'Fais-lui demander sa série du moment.' where id = 'seed-25';
+update missions set template = 'Fais-lui imiter une voix de film.' where id = 'seed-26';
+update missions set template = 'Fais-lui demander son café ou thé préféré.' where id = 'seed-27';
+update missions set template = 'Fais-lui choisir le prochain jeu de société.' where id = 'seed-28';
+update missions set template = 'Fais-lui révéler un talent caché.' where id = 'seed-29';
+update missions set template = 'Fais-lui raconter une anecdote de voyage.' where id = 'seed-30';
