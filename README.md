@@ -3,9 +3,28 @@
 Jeu d'élimination pour soirées. Une victime, une mission, un secret.
 Le dernier survivant est le Grand Killer.
 
-## Lancer le jeu
+## Jouer maintenant (iPhone)
 
-Il te faut [Node.js 22](https://nodejs.org/) (ou plus récent).
+Ouvre ce lien dans Safari :
+
+**https://hugotronel-boop.github.io/killer-party/**
+
+Pas de Node, pas d’installation. Passe le téléphone à chaque joueur.
+
+Si tu vois encore le texte du README au lieu du jeu : attends 1 minute et recharge, ou ouvre le lien ci-dessus (avec `/killer-party/` à la fin).
+
+## Comment jouer
+
+1. Un hôte **crée une soirée** et ajoute les prénoms.
+2. À partir de 3 joueurs, **lance la chasse**.
+3. Passe le téléphone. Chaque joueur **reste appuyé** pour voir sa victime et sa mission.
+4. On accomplit la mission **naturellement**, puis on **déclare un kill**.
+5. L’hôte **valide ou refuse**.
+6. Le dernier en vie est le **Grand Killer**.
+
+Démo : bouton « Essayer la démo ».
+
+## Code source (ordinateur)
 
 ```bash
 git clone https://github.com/hugotronel-boop/killer-party.git
@@ -14,22 +33,4 @@ npm install
 npm run dev
 ```
 
-Ouvre ensuite l'adresse affichée (port 8080).
-
-Pas de compte, pas de `.env`. En local, la base tourne toute seule (PGLite).
-
-## Comment jouer
-
-1. Un hôte **crée une soirée** et partage le code à 4 lettres.
-2. Les invités **rejoignent** avec ce code et leur prénom.
-3. À partir de 3 joueurs, l'hôte **lance la chasse**.
-4. Chaque joueur voit **en secret** sa victime et sa mission.
-5. On accomplit la mission **naturellement**, puis on **déclare un kill**.
-6. L'hôte **valide ou refuse**.
-7. Le dernier en vie est le **Grand Killer**.
-
-Démo : bouton « Essayer la démo ».
-
-## Stack
-
-React 19, TanStack Start, Tailwind v4, Postgres / PGLite.
+React / TanStack Start, port 8080. En local, la base tourne toute seule (PGLite).
