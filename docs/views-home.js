@@ -64,7 +64,6 @@ function viewHome() {
         '<button class="btn btn-lg btn-fill" data-go="create">' + ico("plus") + " Créer une soirée</button>" +
         '<button class="btn btn-lg btn-out" data-go="join">' + ico("users") + " Rejoindre</button>" +
         '<button class="btn btn-lg btn-ghost" data-act="demo">' + ico("play") + " Essayer la démo</button>" +
-        '<a class="btn btn-lg btn-out" href="' + ZIP + '">' + ico("download") + " Télécharger le jeu</a>" +
         '<button class="link" data-go="defis">' + ico("crosshair") + " Les défis</button>" +
         '<button class="link" data-go="rules">' + ico("book") + " Lire les règles</button>" +
       "</div>" +
